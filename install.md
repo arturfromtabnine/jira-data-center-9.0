@@ -1,4 +1,4 @@
-# Docker compose
+# GCP + Docker compose
 
 1. Create a Compute Engine instance:
 
@@ -72,7 +72,7 @@ cd ~/jira-cluster/9.0.0
 sudo docker-compose -f docker-compose-one-node.yml up
 ```
 
-# Terraform
+# GCP + Terraform
 
 1. Initialize Terraform:
 

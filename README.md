@@ -1,4 +1,4 @@
-# docker-atlassian-jira-data-center
+# Local setup docker-atlassian-jira-data-center
 
 > Start an [Atlassian Jira Software Data Center](https://de.atlassian.com/enterprise/data-center) with Docker for local testing during plugin development.
 

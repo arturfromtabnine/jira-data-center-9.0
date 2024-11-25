@@ -1,4 +1,8 @@
 jira-home-node1/
 jira-home-node2/
 jira-home-shared/
+certs/
+.terraform/
 .DS_Store
+license.txt
+.terraform.lock.hcl

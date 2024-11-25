@@ -40,6 +40,8 @@ git clone https://github.com/arturfromtabnine/jira-data-center-9.0.git ~/jira-cl
 ```
 sudo mkdir -p /opt/jira-cluster/9.0.0/jira-home-node1
 sudo mkdir -p /opt/jira-cluster/9.0.0/jira-home-shared
+sudo mkdir -p /opt/jira-cluster/9.0.0/letsencrypt
+sudo mkdir -p /opt/jira-cluster/9.0.0/webroot
 sudo chown -R $USER:$USER /opt/jira-cluster
 ```
 

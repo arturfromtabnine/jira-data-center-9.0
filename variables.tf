@@ -1,6 +1,6 @@
 variable "name" {
   description = "The name of the resource"
-  default     = "jira_cluster"
+  default     = "jira-dc"
 }
 
 variable "project_id" {
@@ -16,4 +16,9 @@ variable "region" {
 variable "zone" {
   description = "The zone to deploy to"
   default     = "us-central1-a"
+}
+
+variable "jira_firewall" {
+  description = "Firewall rule name"
+  default     = "allow-jira-test"
 }
